@@ -8,6 +8,7 @@ function setRoutes(app): void {
   const catCtrl = new CatCtrl();
   const userCtrl = new UserCtrl();
 
+
   // Cats
   router.route('/cats').get(catCtrl.getAll);
   router.route('/cats/count').get(catCtrl.count);

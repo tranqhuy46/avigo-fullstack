@@ -137,5 +137,8 @@
       }
     }
   },
-  "defaultProject": "angular2-full-stack"
+  "defaultProject": "angular2-full-stack",
+  "cli": {
+    "analytics": "9ffd73e4-d01c-481c-84f5-5cba9c3f2a05"
+  }
 }
